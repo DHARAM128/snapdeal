@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #eee;
+}
+
+#headerSection {
+    background: #e40046;
+    height: 100px;
+    /* box-shadow: inset 27px 17px 14px 29px; */
+    /* for box shadow */
+}
+
+#headerSection .marginleftandrightspace,
+.logoandcartSection>article , #contentsection>article{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.topMenu p {
+    margin: 0;
+
+}
+
+.topMenu {
+    background: #c6003d;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    height: 30px;
+    line-height: 28px;
+    font-size: 12px;
+}
+
+.leftpara {
+    width: 50%;
+    float: left;
+}
+
+.rightUlMenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.rightUlMenu li {
+    display: inline-block;
+}
+
+.rightUlMenu li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 12px;
+
+}
+
+/* 
+logoandcartsection css */
+
+.logoandcartSection>article .logo {
+    width: 17%;
+    float: left;
+    position: relative;
+    top: 18px
+}
+
+.logoandcartSection>article .search {
+    width: 63%;
+    float: left;
+    line-height: 19px;
+    margin-top: 14px;
+}
+
+.logoandcartSection>article .cart {
+    width: 20%;
+    float: right;
+    line-height: 70px;
+
+}
+
+#search {
+    width: 70%;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 2px;
+    background: #fff;
+    color: #909090;
+}
+
+.searchText {
+    padding: 8px 30px;
+    background: #111;
+    color: #fff;
+    border-radius: 0px 3px 3px 0px;
+    margin: 0px -5px;
+    position: relative;
+    top: 1px;
+}
+
+#insideDiv {
+    position: absolute;
+    display: none;
+}
+
+.rightNavigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rightNavigation li {
+    display: inline-block;
+
+}
+
+.rightNavigation li a {
+    padding: 26px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.fa-shopping-cart {
+    font-size: 24px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.rightNavigation .dropdown:hover {
+    background: #111;
+}
+
+.rightNavigation .dropdown ul li {
+    padding: 0;
+    margin: 0;
+}
+
+.rightNavigation .dropdown ul {
+    line-height: 30px;
+}
+
+.rightNavigation .dropdown:hover #insideDiv {
+    background: #111;
+    display: inline-block;
+    top: 70px;
+    width: 200px;
+    right: 0;
+}
+
+.insideList li a {
+    padding: 0;
+
+}
+/* contentsection here */
+#contentsection{
+    background: #eeeeee;
+    height: 450px;
+    
+}
+#contentsection>article{
+    margin-top: 50px;
+}
+.contentLeft{
+    width: 20%;
+    float: left;
+    background: white;
+    /* box-shadow: inset 163px 61px 8px 54px #111; */
+}
+.contentMiddle{
+    width: 56%;
+    float: left;
+    /* background: white; */
+    margin: 0 2%;
+    
+
+}
+.contentRight{
+  
+    width: 20%;
+    float: right;
+    background: white;
+    margin: -167px 0;
+}
+.contentLeft h5{
+    padding: 15px;
+    margin: 0;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.menuList{
+    padding: 15px;
+    margin: 0;
+    list-style: none;
+}
+.menuList li a{
+    color: #111;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: lighter;
+    width: 100%;
+}
+.menuList li a:hover{
+    border-left: 3px solid red;
+    background: #eee;
+    transition: ease-in-out all 0.5s; /* importaint*/
+
+}
+.icone_image{
+    height: 37px;
+    width: 37px;
+    background-repeat: no-repeat;
+    display: inline-block;
+     /* it is for background cover*/
+
+}
+/* .Alloffers_icone{
+    background: url(../images/Discount_Right_icon-f5105.png);
+    background-size: cover; 
+    
+} */
+.Mobiles_Tablets_icone{
+    background: url(../images/30x30mobile2.png);
+    background-size: cover;
+}
+.Electronice_icone{
+    background: url(../images/Electronic-6212c.png);
+    background-size: cover;
+}
+.Computer_Gaming_icone{
+    background: url(../images/ComputerGaming-a02cf.png);
+    background-size: cover;
+}
+.Home_Kitchen_icone{
+    background: url(../images/Homekitchenfurnishing-3eda1.jpg);
+    background-size: cover;
+}
+.contentLeft .menuList .Alloffers_icone {
+    background: url(../images/Discount_Right_icon-f5105.png);
+    background-size: cover; 
+}
+.contentMiddle h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    padding: 10px 64px;
+    text-align: center;
+    text-shadow: 7px 6px 6px #c6003d;
+}
+/* #display{
+    clear: both;
+    background: yellow;
+    color: #111;
+    border: 1px solid #111;
+    padding: 10px;
+} */
+.one{
+    position: absolute;
+    right: 225px;
+    top: 38px;
+    text-align: center;
+    border-radius: 7px;
+    width: 18px;
+    height: 18px;
+    background-color: #ff6161;
+    border: 1px solid #fff;
+    font-weight: 400;
+    color: #f0f0f0;
+    line-height: 16px;
+    font-size: 12px;
+}
+#img{
+    width: 90%;
+    margin: 0 auto;
+}
+#img img{
+   
+   width: 100%;
+   height: 200px;
+}
+.img1{
+    width: 30%;
+    float: left;
+    overflow: scroll;
+    opacity: 0.2;
+}
+.img2{
+    position: relative;
+    float: left;
+    width: 38%;
+}
+.img3{
+    float: right;
+    position: relative;
+    width: 30%;
+}
+.baner{
+    margin: -4px -1px;
+    background: #ffffff
+}
+.baner input{
+    border: none;
+    padding: 13px 0px;
+    background: #ffffff;
+    font-size: 13px;
+    text-align: center;
+}
+.btn{
+    background: #f4f4f4;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #999;
+    width: 5.3%;
+    text-align: center;
+    position: relative;
+    line-height: 1;
+    /* padding: 12px 24px; */
+    text-decoration: none;
+    text-transform: uppercase;
+} 
+.view{
+    padding: -1px 7px;
+    position: relative;
+    text-transform: uppercase;
+
+}
+.view button{
+    background: #333333;
+    border-radius: 9px;
+    color: white;
+    /* padding: 0px 35px; */
+    line-height: 34px;
+    /* margin: -12px 0; */
+    text-transform: uppercase;
+   
+}
+
+
+
+
